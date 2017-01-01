@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/gafopi/basic-ddb-client/issues"
   },
-  "homepage": "https://github.com/gafopi/basic-ddb-client#readme"
+  "homepage": "https://github.com/gafopi/basic-ddb-client#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.20"
+  }
 }
