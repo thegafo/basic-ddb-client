@@ -3,12 +3,24 @@
   "version": "1.0.0",
   "description": "Very basic, pared-down DynamoDB client for Node.js.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gafopi/basic-ddb-client.git"
+  },
+  "keywords": [
+    "DynamoDB",
+    "AWS"
+  ],
   "author": "gafo",
   "license": "ISC",
-  "dependencies": {
-    "aws-sdk": "^2.7.20",
-  }
+  "bugs": {
+    "url": "https://github.com/gafopi/basic-ddb-client/issues"
+  },
+  "homepage": "https://github.com/gafopi/basic-ddb-client#readme"
 }
