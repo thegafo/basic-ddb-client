@@ -1,16 +1,14 @@
 {
-  "name": "news-bot",
+  "name": "basic-ddb-client",
   "version": "1.0.0",
-  "description": "",
+  "description": "Very basic, pared-down DynamoDB client for Node.js.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "gafo",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.7.20",
-    "express": "^4.14.0",
-    "toby": "^1.1.1"
   }
 }
