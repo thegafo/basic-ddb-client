@@ -38,7 +38,7 @@ ddb.getItem(tableName, {primaryKey: '', sortKey: ''}, function(err, item) {
 ### Remove item
 
 ```javascript
-ddb.getItem(tableName, {primaryKey: '', sortKey: ''}, function(err) {
+ddb.removeItem(tableName, {primaryKey: '', sortKey: ''}, function(err) {
   console.log(err);
 });
 ```
