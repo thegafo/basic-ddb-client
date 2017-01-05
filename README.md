@@ -3,11 +3,16 @@
 
 Very basic, pared-down DynamoDB client.
 
+
+## Installation
+
+```bash
+npm install basic-ddb-client
+```
+
 ## Usage
 
 ```javascript
-
-var ddb =
 
 var config = {
   region: "",
@@ -15,7 +20,7 @@ var config = {
   secretAccessKey: ""
 };
 
-var ddb = require('../lib/basic-ddb-client')(config);
+var ddb = require('basic-ddb-client')(config);
 
 ```
 
