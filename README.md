@@ -35,6 +35,14 @@ ddb.getItem(tableName, {primaryKey: '', sortKey: ''}, function(err, item) {
 });
 ```
 
+### Update item
+
+```javascript
+ddb.updateItem(tableName, {primaryKey: '', sortKey: ''}, "set whatever = :val", {":val": false}, function(err, item) {
+  console.log(err,updateValues);
+});
+```
+
 ### Remove item
 
 ```javascript
